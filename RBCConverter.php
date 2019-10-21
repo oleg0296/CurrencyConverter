@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Services\CurrencyConverter;
+namespace oleg0296\CurrencyConverter;
 
 use App\RBCExchangeRate;
 use App\Services\CurrencyConverter\Exceptions\RBCConverterException;

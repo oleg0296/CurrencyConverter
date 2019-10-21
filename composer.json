@@ -1,0 +1,33 @@
+{
+  "name": "oleg0296/currency-converter",
+  "description": "The simple currency converter package for Laravel",
+  "keywords": [
+    "laravel",
+    "widgets"
+  ],
+  "homepage": "https://github.com/oleg0296/CurrencyConverter",
+  "authors": [
+    {
+      "name": "Oleg Vekshin",
+      "email": "viekshin@list.ru"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.3",
+    "illuminate/support": "5.6.*|5.7.*|5.8.*|6.*",
+    "illuminate/view": "5.6.*|5.7.*|5.8.*|6.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "oleg0296\\CurrencyConverter\\": ""
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [],
+      "aliases": {
+        "RBCConverter": "oleg0296\\CurrencyConverter\\Facades\\RBCCOnverterFacade"
+      }
+    }
+  }
+}
