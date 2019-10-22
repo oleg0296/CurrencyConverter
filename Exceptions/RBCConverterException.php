@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Services\CurrencyConverter\Exceptions;
+namespace oleg0296\CurrencyConverter\Exceptions;
 
 class RBCConverterException extends \Exception
 {

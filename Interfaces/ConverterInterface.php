@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Services\CurrencyConverter\Interfaces;
+namespace oleg0296\CurrencyConverter\Interfaces;
 
 interface ConverterInterface
 {

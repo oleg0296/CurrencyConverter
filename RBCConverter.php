@@ -3,8 +3,8 @@
 namespace oleg0296\CurrencyConverter;
 
 use App\RBCExchangeRate;
-use App\Services\CurrencyConverter\Exceptions\RBCConverterException;
-use App\Services\CurrencyConverter\Interfaces\ConverterInterface;
+use oleg0296\CurrencyConverter\Exceptions\RBCConverterException;
+use oleg0296\CurrencyConverter\Interfaces\ConverterInterface;
 use Carbon\Carbon;
 
 class RBCConverter implements ConverterInterface
